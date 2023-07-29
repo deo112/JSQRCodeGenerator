@@ -1,0 +1,21 @@
+body {
+    background: #142d4c;  
+    color: aliceblue;
+    display: grid;
+    place-items: center;
+}
+
+#size, #qrtext  {
+    background: #385170; 
+    padding: 2px;
+    border: solid;
+    border-radius: 5%;
+    border-color: aliceblue;
+}
+input {
+    background: orange;
+    padding:20%;
+    border=solid;
+    border-radius: 10%;
+    border-color: aliceblue;
+}
