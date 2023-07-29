@@ -1,21 +1,37 @@
 body {
     background: #142d4c;  
     color: aliceblue;
+    font-family: var(--bodyFontFamily), var(--bodyFontFamilyFallback);
+    font-size: var(--bodyFontSize);
+    font-weight: var(--bodyFontWeight);
+    line-height: var(--bodyLineHeight);
+    margin: 0;
+    min-block-size: 100vh;
     display: grid;
     place-items: center;
+
+
+}
+* {
+    box-sizing: inherit;
 }
 
 #size, #qrtext  {
     background: #385170; 
+    color: aliceblue;
     padding: 2px;
     border: solid;
     border-radius: 5%;
     border-color: aliceblue;
+    display: flex;
 }
 input {
     background: orange;
     padding:20%;
-    border=solid;
+    border: solid;
     border-radius: 10%;
     border-color: aliceblue;
+}
+img {
+    padding-top: 20px;
 }
